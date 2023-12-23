@@ -1,0 +1,10 @@
+spec:
+  container:
+  - name: frontend-container
+    image: /scs_db/scs_schema/scs_repo/frontend:scs
+  - name: backend-container
+    image: /scs_db/scs_schema/scs_repo/backend:scs
+  endpoint:
+  - name: pocfrontend-endpoint
+    port: 3000
+    public: true
